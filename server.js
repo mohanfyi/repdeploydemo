@@ -4,7 +4,7 @@ var PORT = 8080;
 // App
 var app = express();
 app.get('/', function (req, res) {
-  var response = 'Hello world...Hows it going?...Is today Thursday?..Checking whether same image name can be used...name is demoapp!';
+  var response = 'Greetings!!...';
   response+='........[This request was served by:' + addresses + ']';
   res.send(response);
 });
