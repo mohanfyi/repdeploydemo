@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script to fetch latest changes from version control and refresh pods
+# Script to rebuild image, push to repo andrefresh pods one at a time
 
 cd ..
 docker build -t gcr.io/prjmonday/demoapp  .
