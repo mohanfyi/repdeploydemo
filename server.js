@@ -4,7 +4,7 @@ var PORT = 8080;
 // App
 var app = express();
 app.get('/', function (req, res) {
-  var response = 'Greetings!!...';
+  var response = 'Greetings Jenkins!!...';
   response+='........[This request was served by:' + addresses + ']';
   res.send(response);
 });
